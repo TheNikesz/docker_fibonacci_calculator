@@ -12,3 +12,6 @@ Aby zbudować obraz należy wykorzystać polecenia ```docker build . -t fibcalc`
 
 C.
 Aby zbudować oraz uruchomić kontener należy wykorzystać polecenie ```docker run -it fibcalc```.
+
+# 3.
+```git add .```, ```git commit -m "feat: add semver to workflow"```, ```git tag 1.0.0```, ```git push``` oraz ```git push --tags```
