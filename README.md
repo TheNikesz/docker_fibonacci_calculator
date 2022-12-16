@@ -8,10 +8,10 @@ Aby utworzyć repozytorium Git oraz dodać je na GitHub należy wykorzystać pol
 # 2.
 
 B. 
-Aby zbudować obraz należy wykorzystać polecenia ```docker build . -t fibcalc```.
+Aby zbudować obraz należy wykorzystać polecenia ```ddocker build -t fibcalc .```.
 
 C.
-Aby zbudować oraz uruchomić kontener należy wykorzystać polecenie ```docker run -it fibcalc```.
+Aby zbudować oraz uruchomić kontener należy wykorzystać polecenie ```docker run -it --rm fibcalc```.
 
 # 3.
 ```git add .```, ```git commit -m "feat: add semver to workflow"```, ```git tag 1.0.0```, ```git push``` oraz ```git push --tags```
