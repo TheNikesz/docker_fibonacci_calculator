@@ -38,7 +38,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            ghcr.io/thenikesz/fibcalc
+            ghcr.io/thenikesz/fibcalc_dod1
           tags: |
             type=ref,event=branch
             type=ref,event=pr
