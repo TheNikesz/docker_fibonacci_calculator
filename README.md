@@ -48,7 +48,6 @@ Aby pobrać własny obraz i uruchomić kontener należy wykorzystać polecenie `
 # 1.
 
 Aby sprawdzić obecność pliku fib_dod1.yml jako opisu workflow w Github Action należy wykorzystać polecenie ```gh workflow view 43252792```
-
 Aby uruchomić GitHub Action należy wykorzystać polecenia ```gh workflow run 43252792``` i ```gh run watch```
 
 ![Dodatkowa_1_1.png](https://github.com/TheNikesz/docker_fibonacci_calculator/blob/main/Screens/Dodatkowa_1_1.png)
@@ -71,7 +70,6 @@ Rezultaty:
 ![Dodatkowa_2_4.png](https://github.com/TheNikesz/docker_fibonacci_calculator/blob/main/Screens/Dodatkowa_2_4.png)
 
 Aby sprawdzić obecność pliku fib_dod2.yml jako opisu workflow w Github Action należy wykorzystać polecenie ```gh workflow view 43555761```
-
 Aby uruchomić GitHub Action należy wykorzystać polecenia ```gh workflow run 43555761``` i ```gh run watch```
 
 ![Dodatkowa_2_5.png](https://github.com/TheNikesz/docker_fibonacci_calculator/blob/main/Screens/Dodatkowa_2_5.png)
