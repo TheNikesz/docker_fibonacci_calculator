@@ -38,3 +38,15 @@ Aby sprawdzić obecność pliku fib_dod1.yml jako opisu workflow w Github Action
 Aby uruchomić GitHub Action należy wykorzystać polecenia ```gh workflow run 43252792``` i ```gh run watch```.
 
 Aby pobrać własny obraz i uruchomić kontener należy wykorzystać polecenie ```docker run -it --rm ghcr.io/thenikesz/fibcalc_dod1:1.1.1```.
+
+# 2. (Nie działa poprawnie - dial tcp i/o timeout)
+
+W celu wykonania zadanie kierowałem się następującym poradnikiem: [Deploying Your Own Private Docker Registry on Azure](https://github.com/toddkitta/azure-content/blob/master/articles/virtual-machines/virtual-machines-docker-registry-on-azure-blob-storage.md).
+
+Aby ustawić registry należy utworzyć Storage account na Azure, a następnie wykorzystać polecenie ```docker run -d -p 5000:5000 -e REGISTRY_STORAGE=azure -e REGISTRY_STORAGE_AZURE_ACCOUNTNAME="<storage-account>" -e REGISTRY_STORAGE_AZURE_ACCOUNTKEY="<storage-key>" -e REGISTRY_STORAGE_AZURE_CONTAINER="registry" --name=registry registry:2```.
+
+Rezultaty:
+
+Aby sprawdzić obecność pliku fib_dod2.yml jako opisu workflow w Github Action należy wykorzystać polecenie ```gh workflow view 43555761```.
+
+Aby uruchomić GitHub Action należy wykorzystać polecenia ```gh workflow run 43555761``` i ```gh run watch```.
