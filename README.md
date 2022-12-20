@@ -10,7 +10,7 @@ Aby utworzyć repozytorium Git oraz dodać je na GitHub należy wykorzystać pol
 # 2.
 
 B. 
-Aby zbudować obraz należy wykorzystać polecenia ```docker build -t fibcalc .```.
+Aby zbudować obraz należy wykorzystać polecenia ```docker build -t fibcalc .```
 
 ![Obowiazkowa_2B.png](https://github.com/TheNikesz/docker_fibonacci_calculator/blob/main/Screens/Obowiazkowa_2B.png)
 
@@ -34,7 +34,7 @@ Aby sprawdzić obecność pliku fib.yml jako opisu workflow w Github Action nale
 ![Obowiazkowa_4A.png](https://github.com/TheNikesz/docker_fibonacci_calculator/blob/main/Screens/Obowiazkowa_4A.png)
 
 B.
-Aby uruchomić GitHub Action należy wykorzystać polecenia ```gh workflow run 42896863``` i ```gh run watch```.
+Aby uruchomić GitHub Action należy wykorzystać polecenia ```gh workflow run 42896863``` i ```gh run watch```
 
 ![Obowiazkowa_4B.png](https://github.com/TheNikesz/docker_fibonacci_calculator/blob/main/Screens/Obowiazkowa_4B.png)
 
